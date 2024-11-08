@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport settings for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title displayed in the browser tab -->
+    <title>Day Two Work - Canteen Inventory</title>
+
+    <!-- Inline CSS for styling -->
+    <style>
+        /* Basic reset to remove default padding and margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styling for the body to center content and add background color */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        /* Main container styling for centering content and adding padding */
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Header styling for main title */
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Subheader styling */
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        /* Styling for form elements */
+        form {
+            margin-bottom: 20px;
+        }
+
+        /* Label styling */
+        label {
+            display: block;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        /* Input fields styling */
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Styling for button hover effect */
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* List styling for menu items */
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        /* List item styling */
+        ol li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main container for content -->
+    <div class="container">
+        <!-- Main header for the page -->
+        <h1>Welcome to Our Canteen Inventory</h1>
+        
+        <!-- Subheader for login section -->
+        <h3>Login Page</h3>
+
+        <!-- Form for login with name, password, and email fields -->
+        <form>
+            <!-- Label for user input fields -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Your Password">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <!-- Submit button for the form -->
+            <button type="submit">Enter</button>
+        </form>
+
+        <!-- Subheader for home page section -->
+        <h3>Home Page</h3>
+
+        <!-- Ordered list for menu items -->
+        <ol>
+            <li>Koko</li>
+            <li>Eru</li>
+            <li>Vegetable Sauce</li>
+            <li>Pounded Yam</li>
+        </ol>
+    </div>
+</body>
+</html>
