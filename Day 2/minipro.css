@@ -23,7 +23,7 @@ img{
     color: yellow;
 }
 .sub{
-    background: #fff;
+    
     width: 70%;
     height: 200px;
     margin-left: 50px;
@@ -34,5 +34,6 @@ img{
     height:50px;
     width:100%;
     margin-bottom: 5px;
+    text-align: center;
 
 }
