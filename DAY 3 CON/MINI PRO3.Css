@@ -1,40 +1,31 @@
-.main {
-    display :flex ;
-}.firstmain{
-    background-color: rgb(175, 175, 221);
-    margin-right: 30;
+.main{
+    display: flex;
+    justify-content: center;
     width: 50%;
-    height: 600px;
-    border: 30px;
-    border-radius: 20px;
-    text-align: center;
+    height: 400px;
+    background-color: aqua;
+    align-items: center;
+}
+
+.content-1, .content-2{
+width:40%;
+height:300px;
+}
+.content-1{
+    .circle{
+        background-color: blueviolet;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 50%;
+    }
+    background-color: red;
+}
+.content-2{
+    background-color: rgb(187, 255, 0);
 }
 .circle{
-    width:90px;
-    height: 90;
-    margin-top:5px;
-    background-color: brown;
-    border: 2px solis black;
-}
-.secondmain{
-    background-color: antiquewhite;
-    margin-left: 400px;
-    width: 60%;
-    height: 300px;
-    border: 40px;
-    border-radius: 30px;
-    text-align: center;
-}
-.subM{
-    background-color: aqua;
-    width: 70%;
-    height: 200px;
-    margin-left: 50px;
-}
-.contains{
-    background-color: blueviolet;
+    width: 50px;
     height: 50px;
-    width: 100%;
-    margin-bottom: 5px;
-
+    border-radius: 50%;
 }
