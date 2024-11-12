@@ -10,6 +10,8 @@
 .content-1, .content-2{
 width:40%;
 height:300px;
+border: 60PX;
+border-radius: 70PX;
 }
 .content-1{
     .circle{
@@ -23,9 +25,16 @@ height:300px;
 }
 .content-2{
     background-color: rgb(187, 255, 0);
+    .sub{
+        background-color: pink;
+    }
+    .content{
+        background-color: black;
+    }
 }
-.circle{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.sub{
+    background-color: pink;
+}
+.content{
+    background-color: black;
 }
