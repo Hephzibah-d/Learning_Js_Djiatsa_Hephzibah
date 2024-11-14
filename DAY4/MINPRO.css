@@ -2,6 +2,8 @@
     background-color: skyblue;
     width: 50%;
     height: 650px;
+    display: flex;
+
     
 }
 .secondcell{
@@ -9,20 +11,30 @@
     width: 70%;
     height: 500px;
     margin-left: 50px;
+  
    
 }
 .thirdcell{
     background-color: aqua;
-    width: 60%;
-    height: 450px;
+    width:30%;
+    height: 100px;
+    margin-bottom:10%;
+    margin-top:20%;
+    align-items: center;
+    margin-left: 30%;
 }
 .fouthcell{
     background-color: grey;
-    width: 50%;
-    height: 350px;
+    width:20%;
+    height: 50px;
+    align-items: center;
+    margin-left: 30%;
 }
 .fifthcell{
     background-color: brown;
-    width:40%;
-    height:250px;
+    width:10%;
+    height:25px;
+    display: inline;
+    align-items: center;
+    margin-left: 30%;
 }
