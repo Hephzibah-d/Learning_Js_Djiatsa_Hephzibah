@@ -1,7 +1,7 @@
 .firstcell{
     background-color: skyblue;
     width: 50%;
-    height: 625px;
+    height: 630px;
     margin-left: 20%;
 
     
@@ -10,11 +10,14 @@
     background-color:white;
     width: 70%;
     height: 500px;
-    margin-left:;
-    border: 20px;
+    margin-left:20px;
+    border: ;
     border-radius:50px;
   
    
+}
+.pic{
+    mar
 }
 .halfsec{
     margin-left: 30px;
