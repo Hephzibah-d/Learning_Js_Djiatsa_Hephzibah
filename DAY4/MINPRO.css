@@ -1,11 +1,8 @@
-.firstMsec{
-    background-color: brown;
-    width: 60%;
-    height: 70%;
-
-}
-.secondMsec{
+.secmain{
     background-color: blueviolet;
-    width: 40%;
-    height: 60%;
+    width: 90%;
+    height: 80%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 35px;
 }

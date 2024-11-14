@@ -3,8 +3,9 @@
     justify-content: center;
     width: 50%;
     height: 400px;
-    background-color: white;
+    background-color: pink;
     align-items: center;
+    padding: 95px;
 }
 
 .content-1, .content-2{
