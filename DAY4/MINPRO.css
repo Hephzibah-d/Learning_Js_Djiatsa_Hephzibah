@@ -13,10 +13,16 @@
 }
 .thirdcell{
     background-color: aqua;
+    width: 60%;
+    height: 450px;
 }
 .fouthcell{
     background-color: grey;
+    width: 50%;
+    height: 350px;
 }
 .fifthcell{
     background-color: brown;
+    width:40%;
+    height:250px;
 }
