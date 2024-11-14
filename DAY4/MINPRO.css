@@ -1,8 +1,13 @@
-.secmain{
-    background-color: blueviolet;
-    width: 90%;
-    height: 80%;
-    margin-top: 50%;
-    margin-bottom: 50%;
-    margin-left: 35px;
+.firstcell{
+    background-color: skyblue;
+    width: 50%;
+    height: 650px;
+    
+}
+.secondcell{
+    background-color:white;
+    width: 70%;
+    height: 500px;
+    margin-left: 50px;
+   
 }
