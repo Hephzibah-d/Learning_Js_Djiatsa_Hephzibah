@@ -13,13 +13,13 @@ while (guess !== randomNumber) {
 
     // Check the guess
     if (guess > randomNumber) {
-        alert("Too high! Try again.");
+        ("Too high! Try again.");
     } else if (guess < randomNumber) {
-        alert("Too low! Try again.");
+        ("Too low! Try again.");
     } else if (isNaN(guess)) {
-        alert("That's not a number! Please enter a valid number.");
+        ("That's not a number! Please enter a valid number.");
     } else {
-        alert(`Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`);
+        (`Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`);
         break; // Exit the loop
     }
 }
