@@ -3,12 +3,11 @@ console.log(randomNumber)
 
 // Initialize variables
 let attempts = 0;
-let guess = null;
+let guess = 0;
 
 // Game loop
-while (guess !== randomNumber) {
-    // Prompt the user for a guess
-    guess = parseInt(prompt("Guess a number between 1 and 100: "), 10);
+    function calculatingguess(guess){
+        guess =("Guess a number between 1 and 100: ");
     attempts++;
 
     // Check the guess
@@ -20,6 +19,6 @@ while (guess !== randomNumber) {
         ("That's not a number! Please enter a valid number.");
     } else {
         (`Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`);
-        break; // Exit the loop
+        }
     }
-}
+  
