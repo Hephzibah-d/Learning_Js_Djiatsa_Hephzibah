@@ -29,6 +29,8 @@ function clearCart() {
 // Example Usage
 addItem("Laptop");
 addItem("Phone");
+addItem("ipad");
+addItem("head sets")
 viewCart();
 removeItem(0);
 viewCart();
