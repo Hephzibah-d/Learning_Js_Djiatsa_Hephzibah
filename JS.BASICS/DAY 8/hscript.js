@@ -1,6 +1,11 @@
-let shoppingcart=[];
-
-function additems(shoppingcart){
-    shoppingcart.push=("laptop","iphones","ipad");
-    console.log("push")
+let cart=[];
+let item=[]
+function additems(items){
+    cart.push=(items);
+additems("laptop");
+additems("iphones");
+additems("ipad");
+console.log(cart);
 }
+
+
