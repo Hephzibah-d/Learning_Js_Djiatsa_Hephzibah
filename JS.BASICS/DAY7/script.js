@@ -5,11 +5,11 @@ function display(val) {
 }
 
 function clearScreen() {
-  document.getElementById("result").value = "";
+  document.getElementById("result").value = "+";
 }
 
 function calculate() {
-  let   
+  let 
 expression = document.getElementById("result").value;
   let result = eval(expression);
   document.getElementById("result").value = result;
