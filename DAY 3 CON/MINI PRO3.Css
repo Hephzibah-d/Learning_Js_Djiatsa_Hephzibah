@@ -3,7 +3,8 @@
     justify-content: center;
     width: 50%;
     height: 400px;
-    background-color: pink;
+    background-color: whitesmoke;
+    color: white;
     align-items: center;
     padding: 95px;
 }
@@ -55,7 +56,7 @@ text-align: center;
 }
 
 .content{
-    background-color: brown;
+    background-color: rgb(253, 148, 218);
     width:100%;
     height:20%;
     text-align: left; 
@@ -69,7 +70,7 @@ text-align: center;
 
 
 .lastp{
-    background-color:midnightblue;
+    background-color:slateblue;
     margin-left: 20%;
     width:60%;
     height: 20px;
