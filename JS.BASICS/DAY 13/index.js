@@ -1,23 +1,10 @@
-const WebSocket = require('ws');
-
-
-const wss = new WebSocket.Server({ port: 8080 });
-
-
-wss.on('connection', function connection(ws) {
-
-    console.log('Client connected');
-
-
-    ws.on('message', function incoming(message) {
-
-        console.log('Received: %s', message);
-
-        ws.send(`${message}`);
-    });
-
-
-    ws.on('close', function () {
-        console.log('Client disconnected');
-    });
-});
+const socket = new WebSocket("ws://localhost:3000");
+socket.onopen = () => {
+    console.log("WebSocket connection opened")};
+    socket.send("Hello from the browser!");
+    socket.onmessage = (event) => {
+        console.log("Message from the server:", event.data);
+      };
+      socket.onclose = (event) => {
+        console.log("WebSocket connection closed");
+      };
