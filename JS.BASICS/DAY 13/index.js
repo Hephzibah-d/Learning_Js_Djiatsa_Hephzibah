@@ -8,3 +8,6 @@ socket.onopen = () => {
       socket.onclose = (event) => {
         console.log("WebSocket connection closed");
       };
+      socket.onerror = (error) => {
+        console.error("WebSocket error:", error);
+      };
