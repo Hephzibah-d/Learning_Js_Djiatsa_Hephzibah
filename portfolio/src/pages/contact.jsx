@@ -23,8 +23,8 @@ const Contact = () => {
         </div>
         <div className="contactDetails">
           <h2>Contact Details</h2>
-          <p>Email: <a href="mailto:dunamisjunior15@gmail.com">dunamisjunior15@gmail.com</a></p>
-          <p>Phone: +237 681 811 825</p>
+          <p>Email: <a href="mailto:djiatsahephzibah@gmail.com">djiatsahephzibah@gmail.com</a></p>
+          <p>Phone: +237 654 549 083</p>
           <div className="socialMedia">
             <a href="https://x.com/DunamisJun66166" target="_blank">Twitter</a>
             <a href="https://www.linkedin.com/in/dunamis-junior-26b6232bb/" target="_blank">LinkedIn</a>
